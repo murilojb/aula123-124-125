@@ -1,0 +1,18 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    animation-name: exemplo;
+    animation-duration: 10ms;
+    animation-iteration-count:infinite ;
+    border:2px dashed rgb(3, 253, 45);
+  }
+@keyframes exemplo {
+  from {
+    box-shadow: 1px 1px 38px rgb(55, 0, 255);
+  }
+  to{
+    box-shadow: 1px 1px 38px rgb(255, 0, 0);
+  }
+}
